@@ -117,4 +117,3 @@ def zpool_exists(pool_name):
         return True
     except subprocess.CalledProcessError:
         return False
-
